@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://due1gqcfugmhj"]
+
+[ext_resource type="Texture2D" uid="uid://cmfpng05a3ush" path="res://Assets/Basic_Grass_Biom_things.png" id="1_pdhww"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_451uf"]
+polygon = PackedVector2Array(2, 8, 5, 10, 5, 13, 2, 15, -4, 15, -7, 13, -7, 10, -4, 8)
+
+[node name="Tree" type="Sprite2D"]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("1_pdhww")
+hframes = 4
+frame = 2
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+z_index = -1
+position = Vector2(1, 1)
+occluder = SubResource("OccluderPolygon2D_451uf")
