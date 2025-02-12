@@ -11,7 +11,7 @@ vec4 get_gradient_color(float position) {
 }
 
 void fragment() { 
-    float ang_rad = angle * 3.1416 / 360.0; 
+    float ang_rad = angle * 3.1416 / 180.0;
     vec2 dir = vec2(sin(ang_rad),cos(ang_rad)); 
     vec2 at = screen_uv_to_sdf(SCREEN_UV); 
     float accum = 0.0;
