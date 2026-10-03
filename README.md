@@ -1,7 +1,7 @@
 # 2d-shadows-demo-godot
  This project is a demo of how to use a shader to create 2D directional shadows! You can customise the color, length, angle and softness of the shadows. The shader uses Signed Distance Fields provided by the Godot engine.
 
-> Built with Godot 4.3
+> Built with Godot 4.7
 
 ### With soft shadows:
 <img width="1438" alt="Screenshot of shadows demo" src="https://github.com/user-attachments/assets/1a430aef-1d23-42b3-a392-de67d64f3da5" />
